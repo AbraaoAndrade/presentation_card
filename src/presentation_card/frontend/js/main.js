@@ -12,7 +12,7 @@ function addHTMLtext(image_path, name, post, description) {
       <p class="description" id="description">{description}</p>
       <button class="button_1" id="saiba_mais" onclick="handleClick(this)">Saiba mais</button>
       <button class="button_2" id="contatar" onclick="handleClick(this)">Contatar</button>
-      <button class="button_3" id="cv" onclick="handleClick(this)">Baixar CV</button>
+      <button type="submit" onclick="window.open('data/CV_abraao_andrade.pdf')" class="button_3" >Baixar CV</button>
   </div>
   `;
   html_text = html_text.replace("{image_path}", image_path);
