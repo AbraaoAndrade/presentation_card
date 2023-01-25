@@ -66,17 +66,28 @@ mark.post {
     height: 70px;
     /* background-color: red; */
 }
-.button{
+.button_1,
+.button_2,
+.button_3{
     border: none;
     font-size: 14px;
     color: #FFF;
     padding: 12px 0;
     background-color: #000000;
     border-radius: 15px;
-    width: 120px;
+    /* width: 110px; */
     /* margin: auto 130px 10px 0; */
     cursor: pointer;
     transition: all 0.3s ease;
+}
+.button_1{  
+    width: 110px;
+}
+.button_2{
+    width: 100px;
+}
+.button_3{
+    width: 100px;
 }
 
 
