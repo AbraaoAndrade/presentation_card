@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="presentation-card",
-    version="0.1.7",
+    version="0.1.8",
     author="Abraão Andrade",
     author_email="abraaolpandrade@gmail.com",
     description="Streamlit component that allows you to do X",
